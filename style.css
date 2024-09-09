@@ -1,13 +1,24 @@
 body {
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   font-weight: 500;
 }
 
-a {
-  color: orange;
+#jsDom {
+  padding: 50px 0;
 }
-
-a:hover {
-  color: black;
+#jsDom .chat {
+  background-color: #e8edff;
+  width: 300px;
+  height: 250px;
 }
-/*# sourceMappingURL=style.css.map */
+#jsDom .chat .message {
+  background-color: white;
+  width: 250px;
+  height: 200px;
+}
+#jsDom .chat .text {
+  display: flex;
+}
+#jsDom .chat .text input {
+  width: 50px;
+}/*# sourceMappingURL=style.css.map */
