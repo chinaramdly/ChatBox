@@ -6,19 +6,48 @@ body {
 #jsDom {
   padding: 50px 0;
 }
+#jsDom .chat, #jsDom .message {
+  border-radius: 15px;
+}
 #jsDom .chat {
+  display: flex;
+  justify-content: center;
+  width: 380px;
+  height: 245px;
   background-color: #e8edff;
-  width: 300px;
-  height: 250px;
+}
+#jsDom .chat .box {
+  padding: 20px 0 0;
 }
 #jsDom .chat .message {
+  padding: 5px;
   background-color: white;
-  width: 250px;
-  height: 200px;
+  width: 350px;
+  height: 170px;
 }
-#jsDom .chat .text {
+#jsDom .chat .message .end {
+  margin: 5px 0;
+}
+#jsDom .chat .minibox {
+  display: flex;
+  justify-content: center;
+  margin: 15px 0;
+}
+#jsDom .chat .minibox .text {
   display: flex;
 }
-#jsDom .chat .text input {
+#jsDom .chat .minibox input {
+  margin: 0 10px;
+  padding: 2px;
+  width: 120px;
+}
+#jsDom .chat input, #jsDom .chat .send, #jsDom .chat .line {
+  border-radius: 20px;
+}
+#jsDom .chat .send, #jsDom .chat .line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 50px;
+  background-color: #94a6e6;
 }/*# sourceMappingURL=style.css.map */
