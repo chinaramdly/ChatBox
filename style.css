@@ -26,7 +26,14 @@ body {
   height: 170px;
 }
 #jsDom .chat .message .end {
+  display: flex;
+  justify-content: flex-end;
+}
+#jsDom .chat .message .end, #jsDom .chat .message div {
   margin: 5px 0;
+}
+#jsDom .chat .message .end h3, #jsDom .chat .message div h3 {
+  word-wrap: break-word;
 }
 #jsDom .chat .minibox {
   display: flex;
