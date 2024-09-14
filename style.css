@@ -9,9 +9,11 @@ body {
 #jsDom .chat, #jsDom .message {
   border-radius: 15px;
 }
-#jsDom .chat {
+#jsDom .chat, #jsDom .textbox, #jsDom .send {
   display: flex;
   justify-content: center;
+}
+#jsDom .chat {
   width: 380px;
   height: 245px;
   background-color: #e8edff;
@@ -35,15 +37,13 @@ body {
 #jsDom .chat .message .end h3, #jsDom .chat .message div h3 {
   word-wrap: break-word;
 }
-#jsDom .chat .minibox {
-  display: flex;
-  justify-content: center;
+#jsDom .chat .textbox {
   margin: 15px 0;
 }
-#jsDom .chat .minibox .text {
+#jsDom .chat .textbox .text {
   display: flex;
 }
-#jsDom .chat .minibox input {
+#jsDom .chat .textbox input {
   margin: 0 10px;
   padding: 2px;
   width: 120px;
@@ -52,9 +52,12 @@ body {
   border-radius: 20px;
 }
 #jsDom .chat .send, #jsDom .chat .line {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 50px;
+  text-align: center;
+  width: 60px;
   background-color: #94a6e6;
+}
+#jsDom .chat .send h3, #jsDom .chat .line h3 {
+  padding: 5px;
+  word-wrap: break-word;
+  width: 60px;
 }/*# sourceMappingURL=style.css.map */

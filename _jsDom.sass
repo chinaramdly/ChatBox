@@ -2,9 +2,10 @@
     padding: 50px 0
     .chat,.message
         border-radius: 15px
-    .chat
+    .chat,.textbox,.send
         display: flex
         justify-content: center
+    .chat
         width: 380px
         height: 245px
         background-color: #e8edff
@@ -22,9 +23,7 @@
                 margin: 5px 0
                 h3
                     word-wrap: break-word
-        .minibox
-            display: flex
-            justify-content: center
+        .textbox
             margin: 15px 0
             .text
                 display: flex
@@ -35,8 +34,10 @@
         input,.send,.line
             border-radius: 20px
         .send,.line
-            display: flex
-            justify-content: center
-            align-items: center
-            width: 50px
+            text-align: center
+            width: 60px
             background-color: #94a6e6
+            h3
+                padding: 5px
+                word-wrap: break-word
+                width: 60px
