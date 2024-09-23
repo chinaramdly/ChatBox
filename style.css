@@ -27,15 +27,24 @@ body {
   width: 350px;
   height: 170px;
 }
-#jsDom .chat .message .end {
+#jsDom .chat .message::-webkit-scrollbar {
+  width: 5px;
+}
+#jsDom .chat .message::-webkit-scrollbar-track {
+  background-color: #555555;
+}
+#jsDom .chat .message::-webkit-scrollbar-thumb {
+  background-color: #a4a4a4;
+}
+#jsDom .chat .message::-webkit-scrollbar-thumb .end {
   display: flex;
   justify-content: flex-end;
 }
-#jsDom .chat .message .end, #jsDom .chat .message div {
-  margin: 5px 0;
-}
-#jsDom .chat .message .end h3, #jsDom .chat .message div h3 {
+#jsDom .chat .message::-webkit-scrollbar-thumb .end h3 {
   word-wrap: break-word;
+}
+#jsDom .chat .message::-webkit-scrollbar-thumb .end, #jsDom .chat .message::-webkit-scrollbar-thumb div {
+  margin: 3px 0;
 }
 #jsDom .chat .textbox {
   margin: 15px 0;
@@ -45,7 +54,6 @@ body {
 }
 #jsDom .chat .textbox input {
   margin: 0 10px;
-  padding: 2px;
   width: 120px;
 }
 #jsDom .chat input, #jsDom .chat .send, #jsDom .chat .line {
