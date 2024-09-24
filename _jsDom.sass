@@ -1,48 +1,42 @@
 #jsDom
     padding: 50px 0
-    .chat,.message
+    .chat,.message,input,.send,.line
         border-radius: 15px
-    .chat,.textbox,.send
+    .chat,.text,.send
         display: flex
         justify-content: center
+        align-items: center
     .chat
-        width: 380px
-        height: 245px
+        width: 400px
+        height: 260px
         background-color: #e8edff
-        .box
-            padding: 20px 0 0
         .message
-            padding: 5px
-            background-color: #ffff
-            width: 350px
-            height: 170px
+            overflow: auto
         .message::-webkit-scrollbar
             width: 5px
         .message::-webkit-scrollbar-track
-            background-color: #555555
+            background-color: #ffffff
         .message::-webkit-scrollbar-thumb
-            background-color: #a4a4a4
-            .end
-                display: flex
-                justify-content: flex-end
-                h3
-                    word-wrap: break-word
-            .end,div
-                margin: 3px 0
-        .textbox
-            margin: 15px 0
-            .text
-                display: flex
-            input
-                margin: 0 10px
-                width: 120px
-        input,.send,.line
-            border-radius: 20px
+            background-color: #9f9b9b
+        .message
+            padding: 5px
+            background-color: #ffff
+            width: 360px
+            height: 180px
+            .line
+                margin-bottom: 5px
+        .text
+            margin-top: 15px
+        input
+            padding: 3px 10px
+            margin: 0 10px
+            width: 120px
         .send,.line
             text-align: center
-            width: 60px
+            width: 50px
             background-color: #94a6e6
+            padding: 6px 0
             h3
-                padding: 5px
+                font-size: 13px
+                color: #ffff
                 word-wrap: break-word
-                width: 60px

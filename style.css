@@ -6,66 +6,56 @@ body {
 #jsDom {
   padding: 50px 0;
 }
-#jsDom .chat, #jsDom .message {
+#jsDom .chat, #jsDom .message, #jsDom input, #jsDom .send, #jsDom .line {
   border-radius: 15px;
 }
-#jsDom .chat, #jsDom .textbox, #jsDom .send {
+#jsDom .chat, #jsDom .text, #jsDom .send {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 #jsDom .chat {
-  width: 380px;
-  height: 245px;
+  width: 400px;
+  height: 260px;
   background-color: #e8edff;
 }
-#jsDom .chat .box {
-  padding: 20px 0 0;
-}
 #jsDom .chat .message {
-  padding: 5px;
-  background-color: white;
-  width: 350px;
-  height: 170px;
+  overflow: auto;
 }
 #jsDom .chat .message::-webkit-scrollbar {
   width: 5px;
 }
 #jsDom .chat .message::-webkit-scrollbar-track {
-  background-color: #555555;
+  background-color: #ffffff;
 }
 #jsDom .chat .message::-webkit-scrollbar-thumb {
-  background-color: #a4a4a4;
+  background-color: #9f9b9b;
 }
-#jsDom .chat .message::-webkit-scrollbar-thumb .end {
-  display: flex;
-  justify-content: flex-end;
+#jsDom .chat .message {
+  padding: 5px;
+  background-color: white;
+  width: 360px;
+  height: 180px;
 }
-#jsDom .chat .message::-webkit-scrollbar-thumb .end h3 {
-  word-wrap: break-word;
+#jsDom .chat .message .line {
+  margin-bottom: 5px;
 }
-#jsDom .chat .message::-webkit-scrollbar-thumb .end, #jsDom .chat .message::-webkit-scrollbar-thumb div {
-  margin: 3px 0;
+#jsDom .chat .text {
+  margin-top: 15px;
 }
-#jsDom .chat .textbox {
-  margin: 15px 0;
-}
-#jsDom .chat .textbox .text {
-  display: flex;
-}
-#jsDom .chat .textbox input {
+#jsDom .chat input {
+  padding: 3px 10px;
   margin: 0 10px;
   width: 120px;
 }
-#jsDom .chat input, #jsDom .chat .send, #jsDom .chat .line {
-  border-radius: 20px;
-}
 #jsDom .chat .send, #jsDom .chat .line {
   text-align: center;
-  width: 60px;
+  width: 50px;
   background-color: #94a6e6;
+  padding: 6px 0;
 }
 #jsDom .chat .send h3, #jsDom .chat .line h3 {
-  padding: 5px;
+  font-size: 13px;
+  color: white;
   word-wrap: break-word;
-  width: 60px;
 }/*# sourceMappingURL=style.css.map */
