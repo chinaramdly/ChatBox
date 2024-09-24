@@ -37,6 +37,10 @@ body {
   width: 360px;
   height: 180px;
 }
+#jsDom .chat .message .end {
+  display: flex;
+  justify-content: flex-end;
+}
 #jsDom .chat .message .line {
   margin-bottom: 5px;
 }
