@@ -15,14 +15,15 @@ body {
   align-items: center;
 }
 #jsDom .chat {
-  width: 400px;
-  height: 260px;
+  width: 430px;
+  height: 300px;
   background-color: #e8edff;
 }
 #jsDom .chat .message {
   overflow: auto;
 }
 #jsDom .chat .message::-webkit-scrollbar {
+  display: none;
   width: 5px;
 }
 #jsDom .chat .message::-webkit-scrollbar-track {
@@ -34,8 +35,8 @@ body {
 #jsDom .chat .message {
   padding: 5px;
   background-color: white;
-  width: 360px;
-  height: 180px;
+  width: 400px;
+  height: 210px;
 }
 #jsDom .chat .message .end {
   display: flex;
