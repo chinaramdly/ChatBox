@@ -11,12 +11,12 @@ body {
 }
 #jsDom .chat {
   background-color: #d9e0f8;
-  width: 500px;
-  padding: 30px;
+  width: 460px;
+  padding: 25px;
 }
 #jsDom .chat .message {
   background-color: white;
-  height: 260px;
+  height: 240px;
   padding: 5px;
 }
 #jsDom .chat .message .end {
