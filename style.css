@@ -11,25 +11,46 @@ body {
 }
 #jsDom .chat {
   background-color: #d9e0f8;
-  width: 400px;
-  padding: 20px;
+  width: 500px;
+  padding: 30px;
 }
 #jsDom .chat .message {
   background-color: white;
-  height: 200px;
+  height: 260px;
   padding: 5px;
+}
+#jsDom .chat .message .end {
+  display: flex;
+  justify-content: flex-end;
+}
+#jsDom .chat .message div {
+  display: flex;
 }
 #jsDom .chat .message .line {
   text-align: center;
   margin: 5px;
-  width: 50px;
-  padding: 6px;
+  max-width: 120px;
+  min-width: 60px;
+  padding: 5px 14px;
 }
 #jsDom .chat .text {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 15px;
+  margin-top: 25px;
+}
+#jsDom .chat .message {
+  overflow: auto;
+}
+#jsDom .chat .message::-webkit-scrollbar {
+  display: none;
+  width: 5px;
+}
+#jsDom .chat .message::-webkit-scrollbar-track {
+  background-color: white;
+}
+#jsDom .chat .message::-webkit-scrollbar-thumb {
+  background-color: #9f9b9b;
 }
 #jsDom .chat .send, #jsDom .chat .line {
   color: white;
@@ -37,11 +58,16 @@ body {
 }
 #jsDom .chat .send {
   display: flex;
+  align-items: center;
   justify-content: center;
-  align-content: center;
-  width: 60px;
-}
-#jsDom .chat .send input {
-  width: 140px;
+  width: 70px;
   margin: 0 10px;
+}
+#jsDom .chat h3 {
+  font-size: 18px;
+  word-break: break-word;
+}
+#jsDom .chat input {
+  font-size: 18px;
+  width: 170px;
 }/*# sourceMappingURL=style.css.map */
