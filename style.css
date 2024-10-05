@@ -11,7 +11,7 @@ body {
 }
 #jsDom .chat {
   background-color: #d9e0f8;
-  width: 400px;
+  width: 420px;
   padding: 20px;
 }
 #jsDom .chat .message {
@@ -63,12 +63,12 @@ body {
   margin: 0 10px;
 }
 #jsDom .chat h3 {
-  font-size: 17px;
+  font-size: 16px;
   word-break: break-word;
 }
 #jsDom .chat input {
   border: 2px solid #000000;
-  font-size: 17px;
+  font-size: 16px;
   width: 160px;
   padding: 3px 10px;
 }/*# sourceMappingURL=style.css.map */
