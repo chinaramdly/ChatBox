@@ -11,12 +11,12 @@ body {
 }
 #jsDom .chat {
   background-color: #d9e0f8;
-  width: 460px;
-  padding: 25px;
+  width: 400px;
+  padding: 20px;
 }
 #jsDom .chat .message {
   background-color: white;
-  height: 240px;
+  height: 220px;
   padding: 5px;
 }
 #jsDom .chat .message .end {
@@ -29,9 +29,8 @@ body {
 #jsDom .chat .message .line {
   text-align: center;
   margin: 5px;
-  max-width: 120px;
-  min-width: 60px;
-  padding: 5px 14px;
+  max-width: 60%;
+  padding: 10px;
 }
 #jsDom .chat .text {
   display: flex;
@@ -64,10 +63,12 @@ body {
   margin: 0 10px;
 }
 #jsDom .chat h3 {
-  font-size: 18px;
+  font-size: 17px;
   word-break: break-word;
 }
 #jsDom .chat input {
-  font-size: 18px;
-  width: 170px;
+  border: 2px solid #000000;
+  font-size: 17px;
+  width: 160px;
+  padding: 3px 10px;
 }/*# sourceMappingURL=style.css.map */
