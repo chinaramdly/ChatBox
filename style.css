@@ -67,8 +67,7 @@ body {
   word-break: break-word;
 }
 #jsDom .chat input {
-  border: 2px solid #000000;
   font-size: 16px;
   width: 160px;
-  padding: 3px 10px;
+  padding: 4px 10px;
 }/*# sourceMappingURL=style.css.map */
